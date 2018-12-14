@@ -48,7 +48,7 @@ def get_results(data):
     print('--------------------------------')
 
     # set exit path
-    poll_output = os.path.join("PyBankResults.txt")
+    poll_output = os.path.join("PyPollResults.txt")
 
     # write out results to text file
     with open(poll_output, "w") as txtfile:

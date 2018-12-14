@@ -3,7 +3,7 @@ import os
 import csv
 
 # set a CSV file path for the data
-bank_csv = os.path.join('Resources', 'budget_data.csv')
+bank_csv = os.path.join('budget_data.csv')
 
 # define function
 def analyze_bank(data):
@@ -75,7 +75,7 @@ def analyze_bank(data):
     print(f'Greatest Loss In Profits: {minChange}')
 
     # set the file to write to
-    bank_output = os.path.join("Resources", "PyBankResults.txt")    
+    bank_output = os.path.join("PyBankResults.txt")    
     
     # write the results to a text file
     with open(bank_output, 'w') as txtfile:
